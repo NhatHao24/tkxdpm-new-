@@ -1,29 +1,29 @@
 package com.tkxdpm.Model;
 
-import java.util.Date;
-
-import javax.annotation.processing.SupportedOptions;
+// import java.util.Date;
 
 public class SachGiaoKhoa {
     private String maSach;
-    private Date ngayNhap;
+    // private Date ngayNhap;
     private double donGia;
     private int soLuong;
     private String nhaXuatBan;
     private String tinhTrang;
 
-    public SachGiaoKhoa(String maSach, Date ngayNhap, double donGia, int soLuong, String nhaXuatBan, String tinhTrang) {
+    public SachGiaoKhoa(String maSach, 
+    // Date ngayNhap, 
+    double donGia, int soLuong, String nhaXuatBan, String tinhTrang) {
         this.maSach = maSach;
-        this.ngayNhap = ngayNhap;
+        // this.ngayNhap = ngayNhap;
         this.donGia = donGia;
         this.soLuong = soLuong;
         this.nhaXuatBan = nhaXuatBan;
         this.tinhTrang = tinhTrang;
     }
-    @Override
-    public String toString() {
-        return "Sách Giáo Khoa [Mã sách: " + maSach + ", Ngày nhập: " + ngayNhap + ", Đơn giá: " + donGia + ", Số lượng: " + soLuong + ", Nhà xuất bản: " + nhaXuatBan + ", Tình trạng: " + tinhTrang + "]";
-    }
+    // @Override
+    // public String toString() {
+    //     return "Sách Giáo Khoa [Mã sách: " + maSach + ", Ngày nhập: " + ngayNhap + ", Đơn giá: " + donGia + ", Số lượng: " + soLuong + ", Nhà xuất bản: " + nhaXuatBan + ", Tình trạng: " + tinhTrang + "]";
+    // }
 
     public String getMaSach() {
         return maSach;
@@ -33,13 +33,13 @@ public class SachGiaoKhoa {
         this.maSach = maSach;
     }
  
-    public Date getNgayNhap() {
-        return ngayNhap;
-    }
+    // public Date getNgayNhap() {
+    //     return ngayNhap;
+    // }
 
-    public void setNgayNhap(Date ngayNhap) {
-        this.ngayNhap = ngayNhap;
-    }
+    // public void setNgayNhap(Date ngayNhap) {
+    //     this.ngayNhap = ngayNhap;
+    // }
 
     public double getDonGia() {
         return donGia;
@@ -77,7 +77,7 @@ public class SachGiaoKhoa {
     public String toString() {
         return "SachGiaoKhoa{" +
                 "maSach='" + maSach + '\'' +
-                ", ngayNhap=" + ngayNhap +
+                // ", ngayNhap=" + ngayNhap +
                 ", donGia=" + donGia +
                 ", soLuong=" + soLuong +
                 ", nhaXuatBan='" + nhaXuatBan + '\'' +

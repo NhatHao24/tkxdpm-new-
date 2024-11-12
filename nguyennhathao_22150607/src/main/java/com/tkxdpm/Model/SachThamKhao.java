@@ -19,10 +19,10 @@ public class SachThamKhao {
         this.thue = thue;
     }
 
-    @Override
-    public String toString() {
-        return "Sách Tham Khảo [Mã sách: " + maSach + ", Ngày nhập: " + ngayNhap + ", Đơn giá: " + donGia + ", Số lượng: " + soLuong + ", Nhà xuất bản: " + nhaXuatBan + ", Thuế: " + thue + "]";
-    }
+    // @Override
+    // public String toString() {
+    //     return "Sách Tham Khảo [Mã sách: " + maSach + ", Ngày nhập: " + ngayNhap + ", Đơn giá: " + donGia + ", Số lượng: " + soLuong + ", Nhà xuất bản: " + nhaXuatBan + ", Thuế: " + thue + "]";
+    // }
     
     public String getMaSach() {
         return maSach;

@@ -41,7 +41,7 @@ public class App {
                     System.out.print("Nhập tình trạng: ");
                     String tinhTrangGiaoKhoa = scanner.nextLine();
 
-                    SachGiaoKhoa sachGiaoKhoa = new SachGiaoKhoa(maSachGiaoKhoa, ngayNhapGiaoKhoa, donGiaGiaoKhoa, soLuongGiaoKhoa, nhaXuatBanGiaoKhoa, tinhTrangGiaoKhoa);
+                    SachGiaoKhoa sachGiaoKhoa = new SachGiaoKhoa(maSachGiaoKhoa, donGiaGiaoKhoa, soLuongGiaoKhoa, nhaXuatBanGiaoKhoa, tinhTrangGiaoKhoa);
                     libraryService.addSachGiaoKhoa(sachGiaoKhoa);
                     break;
 

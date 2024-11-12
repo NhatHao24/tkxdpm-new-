@@ -46,7 +46,7 @@ public class AddUIConsoleInput {
         System.out.println("Nhập tình trạng (mới/cũ): ");
         String tinhTrang = scanner.nextLine();
 
-        SachGiaoKhoa sachGiaoKhoa = new SachGiaoKhoa(maSach, ngayNhap, donGia, soLuong, nhaXuatBan, tinhTrang);
+        SachGiaoKhoa sachGiaoKhoa = new SachGiaoKhoa(maSach, donGia, soLuong, nhaXuatBan, tinhTrang);
         libraryUseCase.themSachGiaoKhoa(sachGiaoKhoa);
         System.out.println("Thêm sách giáo khoa thành công!");
     }
